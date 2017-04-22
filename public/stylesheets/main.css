@@ -1,20 +1,66 @@
-
 body {
-  background-color: #d0e4fe;
-  text-align: center;
+	background-color: rgb(204, 255, 236);
+  padding-top: 70px;
 }
 
 h1 {
-  font-family: 'Lobster', cursive;
-  color: orange;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 50px;
+  text-transform: uppercase;
+  padding-left: 50px;  
 }
 
 p {
-  font-family: "Courier New";
-  font-size: 30px;
+	font-family: 'Montserrat', sans-serif;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
-#doge-image img {
-  height: 140px;
-  margin-top: 20px;
+h4 {
+  color: #b5b5b5;
+}
+
+.page-header {
+  text-align: center;
+}
+
+.code-container {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+}
+
+.code-container img{
+  padding: 20px;
+  max-width: 300px;
+  max-height: 200px;
+}
+
+.contact-container {
+  text-align: center;
+}
+
+.contact-container .content {
+  margin-top: 50px
+}
+
+.contact-icon {
+  font-size: 45px;
+  margin: 0 5px;
+}
+
+.contact-icon-link:hover {
+  text-decoration: none
+}
+
+.contact-icon.fa-linkedin-square {
+  color: #007bb6;
+}
+
+.contact-icon.fa-github-square {
+  color: #353535;
+}
+
+.contact-icon.fa-facebook-square {
+  color: #3b5998;
 }
